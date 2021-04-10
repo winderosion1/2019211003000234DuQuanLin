@@ -10,34 +10,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ced6dd7-1755-4fdc-926b-66749249cd1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/sqljdbc42.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week4/JDBCDemoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week5/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/RegisterServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/week4/ConfigDemoServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/RegisterServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/week4/ConfigDemoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/2019211003000234DuQuanLin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/2019211003000234DuQuanLin_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week1/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week2/HomeWork1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/week4/JDBCDemoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/week5/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/sqljdbc42.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/lib/druid-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/week4/JDBCDemoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sqljdbc42.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019211003000234DuQuanLin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019211003000234DuQuanLin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week5/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week5/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/MyJsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +44,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -85,7 +90,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../servlettest2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -98,11 +103,12 @@
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\program\java\2019211003000234DuQuanLin\lib" />
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp" />
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp\WEB-INF" />
+      <recent name="D:\program\java\2019211003000234DuQuanLin\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.DuQuanLin2019211003000234.week2" />
       <recent name="com.example.DuQuanLin2019211003000234.week4" />
       <recent name="com.example.DuQuanLin2019211003000234" />
     </key>
@@ -221,7 +227,13 @@
       <workItem from="1616457770658" duration="1121000" />
       <workItem from="1616930902754" duration="678000" />
       <workItem from="1617758188518" duration="7000" />
-      <workItem from="1617792425796" duration="10901000" />
+      <workItem from="1617792425796" duration="11619000" />
+      <workItem from="1617809305309" duration="595000" />
+      <workItem from="1618035073166" duration="533000" />
+      <workItem from="1618035633763" duration="33000" />
+      <workItem from="1618035698909" duration="49000" />
+      <workItem from="1618035780383" duration="13000" />
+      <workItem from="1618035823188" duration="3954000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615095736621</created>
@@ -244,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616930971143</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HM Week5">
+      <created>1617807696231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617807696231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +297,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="HM Week3" />
     <MESSAGE value="HM Week4" />
-    <option name="LAST_COMMIT_MESSAGE" value="HM Week4" />
+    <MESSAGE value="HM Week5" />
+    <option name="LAST_COMMIT_MESSAGE" value="HM Week5" />
   </component>
 </project>
