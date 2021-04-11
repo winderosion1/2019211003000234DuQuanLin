@@ -9,7 +9,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ced6dd7-1755-4fdc-926b-66749249cd1b" name="Default Changelist" comment="" />
+    <list default="true" id="1ced6dd7-1755-4fdc-926b-66749249cd1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week6/JDBCServletContextListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week6/SearchServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/userInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/userList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week5/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week5/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/MyJsp.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../servlettest2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../学习/双创技术部/超市管理" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -77,8 +99,8 @@
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp\WEB-INF" />
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp" />
+      <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp\WEB-INF" />
       <recent name="D:\program\java\2019211003000234DuQuanLin\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -88,13 +110,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,7 +231,8 @@
       <workItem from="1618035633763" duration="33000" />
       <workItem from="1618035698909" duration="49000" />
       <workItem from="1618035780383" duration="13000" />
-      <workItem from="1618035823188" duration="4272000" />
+      <workItem from="1618035823188" duration="6314000" />
+      <workItem from="1618122158205" duration="5669000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615095736621</created>
@@ -244,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618040891691</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HM Week5 Redo">
+      <created>1618041082911</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618041082911</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +311,7 @@
     <MESSAGE value="HM Week3" />
     <MESSAGE value="HM Week4" />
     <MESSAGE value="HM Week5" />
-    <option name="LAST_COMMIT_MESSAGE" value="HM Week5" />
+    <MESSAGE value="HM Week5 Redo" />
+    <option name="LAST_COMMIT_MESSAGE" value="HM Week5 Redo" />
   </component>
 </project>

@@ -11,10 +11,11 @@ import java.sql.*;
 
 @WebServlet(name = "LoginServlet", value = "/login")
 public class LoginServlet extends HttpServlet {
+    Connection con = null;
     @Override
     public void init() throws ServletException {
         super.init();
-        String driver = getServletConfig().getServletContext().getInitParameter("driver");
+        /*String driver = getServletConfig().getServletContext().getInitParameter("driver");
         String url = getServletConfig().getServletContext().getInitParameter("url");
         String username = getServletConfig().getServletContext().getInitParameter("username");
         String password = getServletConfig().getServletContext().getInitParameter("password");
@@ -25,7 +26,8 @@ public class LoginServlet extends HttpServlet {
             System.out.println("init()" + connection);
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
-        }
+        }*/
+        con = (Connection) getServletContext().getAttribute("con");
     }
 
     @Override
@@ -55,11 +57,21 @@ public class LoginServlet extends HttpServlet {
                 String pd1 = rs.getString(2);
                 if(user1.equals(username) && pd1.equals(password)){
                     PrintWriter printWriter =response.getWriter();
-                    printWriter.println("Login Success!!!");
-                    printWriter.println("Welcome " + username);
+                    /*printWriter.println("Login Success!!!");
+                    printWriter.println("Welcome " + username);*/
+                    request.setAttribute("username",rs.getString(1));
+                    request.setAttribute("password",rs.getString(2));
+                    request.setAttribute("email",rs.getString(3));
+                    request.setAttribute("gender",rs.getString(4));
+                    request.setAttribute("birthdate",rs.getString(5));
+
+                    request.getRequestDispatcher("userList.jsp").forward(request,response);
+
                 }else{
                     PrintWriter printWriter =response.getWriter();
-                    printWriter.println("Login Error!");
+                    request.setAttribute("message","Username Or Password Error!!");
+                    request.getRequestDispatcher("login.jsp").forward(request,response);
+                    /*printWriter.println("Login Error!");*/
                 }
             }
         } catch (SQLException | ClassNotFoundException throwables) {

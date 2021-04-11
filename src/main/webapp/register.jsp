@@ -6,7 +6,7 @@
     <title>Register</title>
 </head>
 <body>
-<form method="post" action="/2019211003000234duquanlin_war_exploded/register">
+<form method="post" action="register">
     username:<input type = "text" name="username"><br/>
     password:<input type = "password" name="password"><br/>
     email:<input type = "text" name="email"><br/>

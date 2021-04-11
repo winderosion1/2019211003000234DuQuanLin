@@ -3,15 +3,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Register</title>
+    <title>Login</title>
 </head>
 <body>
-<form method="post" action="/2019211003000234duquanlin_war_exploded/register">
+<%
+    if(!(request.getAttribute("message") == null)){
+        out.print("<h3>"+request.getAttribute("message")+"</h3>");
+    }
+%>
+<form method="post" action="/2019211003000234DuQuanLin_war_exploded/login">
     username:<input type = "text" name="username"><br/>
     password:<input type = "password" name="password"><br/>
-    email:<input type = "text" name="email"><br/>
-    gender:<input type = "text" name="gender"><br/>
-    birthdate:<input type = "text" name="birthdate"><br/>
     <input type="submit" name="提交">
 </form>
 </body>
