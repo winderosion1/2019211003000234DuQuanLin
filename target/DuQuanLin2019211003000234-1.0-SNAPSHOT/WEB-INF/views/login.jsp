@@ -29,8 +29,8 @@
     }
 %>
 <form method="post" action="/2019211003000234DuQuanLin_war_exploded/login">
-    username:<input type = "text" name="<%=username%>"><br/>
-    password:<input type = "password" name="<%=password%>"><br/>
+    username:<input type = "text" name="<%username%>"><br/>
+    password:<input type = "password" name="<%password%>"><br/>
     <input type="checkbox" name = "rememberMe" value="1" <%=rememberMeVal.equals("1") ?"checked":""%>checked/>RememberMe<br/>
     <input type="submit" name="提交">
 </form>
