@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 @WebServlet(name = "RegisterServlet", value = "/register")
 public class RegisterServlet extends HttpServlet {
@@ -33,7 +36,7 @@ public class RegisterServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doPost(request, response);
+        request.getRequestDispatcher("WEB-INF/views/register.jsp").forward(request,response);
     }
 
     @Override
@@ -42,11 +45,14 @@ public class RegisterServlet extends HttpServlet {
         String password = request.getParameter("password");
         String email = request.getParameter("email");
         String gender = request.getParameter("gender");
-        String birthdate = request.getParameter("birthdate");
-
-
+        String date = request.getParameter("birthDate");
 
         try {
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            Date date1 = sdf.parse(date);
+            java.sql.Date birthdate = new java.sql.Date(date1.getTime());
+
+
             Statement st = con.createStatement();
             String sql = "insert into usertable(username,password,email,gender,birthdate)" +
                     "values('" + username + "','" + password + "','" + email + "','" + gender + "','" + birthdate +"')";
@@ -77,7 +83,7 @@ public class RegisterServlet extends HttpServlet {
 
             response.sendRedirect("login.jsp");
 
-        } catch (SQLException throwables) {
+        } catch (SQLException | ParseException throwables) {
             throwables.printStackTrace();
         }
 

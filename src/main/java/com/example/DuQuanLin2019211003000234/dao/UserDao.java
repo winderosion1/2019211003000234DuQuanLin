@@ -29,7 +29,7 @@ public class UserDao implements IUserDao {
         st.setString(2,user.getPassword());
         st.setString(3,user.getEamil());
         st.setString(4,user.getGender());
-        st.setDate(5, (java.sql.Date) user.getBirthDate());
+        st.setDate(5, user.getBirthDate());
         st.setInt(6,user.getId());
 
         int rs = st.executeUpdate();
@@ -46,9 +46,9 @@ public class UserDao implements IUserDao {
     public User findByUsernamePassword(Connection con, String username, String password) throws SQLException {
         String sql = "select id,username,password,email,gender,birthdate from usertable where username = ? and password = ?";
         PreparedStatement st = con.prepareStatement(sql);
-        ResultSet rs = st.executeQuery();
         st.setString(1,username);
         st.setString(2,password);
+        ResultSet rs = st.executeQuery();
         User user = null;
 
         if (rs.next()) {

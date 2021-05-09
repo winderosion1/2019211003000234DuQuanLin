@@ -13,7 +13,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@WebServlet(name = "UpdateUserServlet", value = "/updateUser")
+@WebServlet(name = "UpdateUserServlet", value = "/updateUserServlet")
 public class UpdateUserServlet extends HttpServlet {
     Connection con = null;
 
@@ -24,7 +24,8 @@ public class UpdateUserServlet extends HttpServlet {
     }
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("updateUser.jsp").forward(request,response);
+        //request.getRequestDispatcher("updateUser.jsp").forward(request,response);
+        doPost(request, response);
     }
 
     @Override
@@ -33,21 +34,19 @@ public class UpdateUserServlet extends HttpServlet {
         String password = request.getParameter("password");
         String email = request.getParameter("email");
         String gender = request.getParameter("gender");
-        SimpleDateFormat df =new SimpleDateFormat("yyyy-MM-dd");
-        Date birthDate = new Date();
-        try {
-            birthDate = df.parse((String)request.getParameter("r_date"));
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
+        String date = request.getParameter("birthDate");
         int id = Integer.parseInt(request.getParameter("id"));
-
-        User user = new User(id,username,password,email,gender,birthDate);
-
-        UserDao userDao = new UserDao();
         try {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        Date date1 = sdf.parse(date);
+        java.sql.Date birthdate = new java.sql.Date(date1.getTime());
+
+        User user = new User(id,username,password,email,gender,birthdate);
+            //System.out.println(user.toString());
+        UserDao userDao = new UserDao();
+
             userDao.updateUser(con,user);
-        } catch (SQLException throwables) {
+        } catch (SQLException | ParseException throwables) {
             throwables.printStackTrace();
         }
         request.getRequestDispatcher("updateUser.jsp").forward(request,response);

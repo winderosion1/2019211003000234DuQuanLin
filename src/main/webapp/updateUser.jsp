@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ include file="header.jsp"%>
+<%@ include file="WEB-INF/views/header.jsp"%>
 <html>
 <head>
     <title>Title</title>
@@ -15,7 +15,7 @@
 <%
     User u = (User) session.getAttribute("user");
 %>
-<form method="post" action="updateUser">
+<form method="post" action="updateUserServlet">
     <input type="hidden" name = "id" value="<%=u.getId()%>">
     username:<input type = "text" name = "username" value="<%=u.getUsername()%>"><br/>
     password:<input type = "password" name = "password" value="<%=u.getPassword()%>"><br/>
@@ -30,4 +30,4 @@
 </form>
 </body>
 </html>
-<%@ include file="footer.jsp"%>
+<%@ include file="WEB-INF/views/footer.jsp"%>

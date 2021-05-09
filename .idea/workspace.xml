@@ -10,31 +10,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ced6dd7-1755-4fdc-926b-66749249cd1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/LogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/UpdateUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/controller/HomeServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/dao/IUserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/userInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/userInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/controller/HomeServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/dao/IUserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/AdminHomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/filter/AdminAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/filter/FrontEndAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/UpdateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/UpdateUserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week5/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week5/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/updateUser.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/week5/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/week5/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/week5/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/week5/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/controller/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/controller/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/userInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/controller/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/controller/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/week3/RegisterServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +59,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -75,6 +84,11 @@
         <option name="userSettingsFile" value="D:\program\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1pPqlIIELjugFWWmybtVJIOeXKj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -91,7 +105,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -106,6 +120,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp" />
+      <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp\WEB-INF\views" />
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp\WEB-INF" />
       <recent name="D:\program\java\2019211003000234DuQuanLin\lib" />
     </key>
@@ -241,6 +256,7 @@
       <workItem from="1619000865014" duration="95000" />
       <workItem from="1619358332490" duration="486000" />
       <workItem from="1619358938455" duration="7400000" />
+      <workItem from="1620564127953" duration="4642000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615095736621</created>

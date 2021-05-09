@@ -1,6 +1,6 @@
 package com.example.DuQuanLin2019211003000234.model;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class User {
     private int id;
@@ -8,7 +8,7 @@ public class User {
     private String password;
     private String eamil;
     private String gender;
-    private Date birthDate;
+    private java.sql.Date birthDate;
 
     public User() {
     }
@@ -78,7 +78,7 @@ public class User {
         return birthDate;
     }
 
-    public void setBirthDate(Date birthDate) {
+    public void setBirthDate(java.sql.Date birthDate) {
         this.birthDate = birthDate;
     }
 }
