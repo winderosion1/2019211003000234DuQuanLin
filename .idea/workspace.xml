@@ -10,207 +10,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ced6dd7-1755-4fdc-926b-66749249cd1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/AddProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/ProductListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/IProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/productList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/prettyPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/price-range.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/404/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/blog/blog-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/blog/blog-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/blog/blog-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/blog/man-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/blog/man-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/blog/man-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/blog/man-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/blog/socials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cart/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cart/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cart/two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/Order-Processing-Services.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/bg_border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/email.jpe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/gallery1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/gallery2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/gallery3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/gallery4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/girl1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/girl2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/girl3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/iframe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/iframe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/iframe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/iframe4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/mail_receive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/order-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/ordermgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/partner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/partner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/partner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/partner4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/pin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/productmgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/recommend1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/recommend2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/recommend3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/sale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/searchicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/shipping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home/usermgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/product-details/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/product-details/new.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/product-details/rating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/product-details/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/product-details/similar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/product-details/similar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/product-details/similar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/shop/advertisement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/shop/product10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/shop/product11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/shop/product12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/shop/product7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/shop/product8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/shop/product9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/price-range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/controller/AdminHomeServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/controller/LogoutServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/controller/UpdateUserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/admin/productList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/admin/userList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/productDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/shop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/css/prettyPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/css/price-range.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/404/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/blog/blog-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/blog/blog-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/blog/blog-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/blog/man-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/blog/man-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/blog/man-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/blog/man-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/blog/socials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/cart/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/cart/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/cart/two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/Order-Processing-Services.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/bg_border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/email.jpe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/gallery1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/gallery2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/gallery3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/gallery4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/girl1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/girl2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/girl3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/iframe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/iframe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/iframe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/iframe4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/mail_receive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/order-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/ordermgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/partner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/partner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/partner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/partner4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/pin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/productmgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/recommend1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/recommend2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/recommend3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/sale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/searchicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/shipping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/home/usermgmt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/product-details/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/product-details/new.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/product-details/rating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/product-details/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/product-details/similar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/product-details/similar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/product-details/similar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/shop/advertisement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/shop/product10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/shop/product11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/shop/product12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/shop/product7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/shop/product8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/shop/product9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/js/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/js/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/js/price-range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/updateUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/controller/AdminHomeServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/controller/LogoutServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/controller/UpdateUserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/GetImgServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/ProductDetailsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/ShopServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cart/empty_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cart/no_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/controller/ProductListServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/dao/IProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/dao/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/filter/AdminAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/filter/FrontEndAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/model/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/controller/ProductListServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/dao/IProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/filter/AdminAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/filter/FrontEndAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/model/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/2019211003000234DuQuanLin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/2019211003000234DuQuanLin_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019211003000234DuQuanLin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019211003000234DuQuanLin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/ProductListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/ProductListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/productList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/admin/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/admin/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/admin/productList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/productDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/shop.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +105,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images/cart" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
@@ -280,11 +113,11 @@
       <recent name="com.example.DuQuanLin2019211003000234.week4" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\java\com\example\DuQuanLin2019211003000234\dao" />
+      <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp\images\cart" />
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\java\com\example\DuQuanLin2019211003000234\dao" />
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\java\com\example\DuQuanLin2019211003000234\model" />
       <recent name="D:\program\java\2019211003000234DuQuanLin\src" />
-      <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp" />
@@ -299,13 +132,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -430,7 +265,8 @@
       <workItem from="1621081714636" duration="917000" />
       <workItem from="1621134845387" duration="246000" />
       <workItem from="1621135139199" duration="2634000" />
-      <workItem from="1621168039712" duration="1636000" />
+      <workItem from="1621168039712" duration="2367000" />
+      <workItem from="1621779234470" duration="6452000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615095736621</created>
@@ -495,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620572781213</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HM Week11">
+      <created>1621169803124</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621169803125</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,6 +377,7 @@
     <MESSAGE value="HM Week6" />
     <MESSAGE value="HM Week7" />
     <MESSAGE value="HM Week9" />
-    <option name="LAST_COMMIT_MESSAGE" value="HM Week9" />
+    <MESSAGE value="HM Week11" />
+    <option name="LAST_COMMIT_MESSAGE" value="HM Week11" />
   </component>
 </project>
