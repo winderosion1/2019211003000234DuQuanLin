@@ -10,26 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ced6dd7-1755-4fdc-926b-66749249cd1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/CartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/UserListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/controller/AddProductServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/controller/GetImgServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/controller/ShopServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/cart/empty_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/images/cart/no_order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/controller/AddProductServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/controller/GetImgServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/controller/ShopServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/controller/ProductDetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/controller/ProductDetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/dao/ProductDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/AddProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/AddProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/ShopServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/ShopServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/IProductDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/dao/IProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/dao/IProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/views/productDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/dao/IProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/dao/IProductDao.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +245,7 @@
       <workItem from="1621779234470" duration="6486000" />
       <workItem from="1621826791543" duration="1000" />
       <workItem from="1621954814424" duration="89000" />
-      <workItem from="1622360121086" duration="9393000" />
+      <workItem from="1622360121086" duration="11423000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615095736621</created>
@@ -332,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621785754656</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="HM Week13">
+      <created>1622375551314</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1622375551314</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +372,7 @@
     <MESSAGE value="HM Week9" />
     <MESSAGE value="HM Week11" />
     <MESSAGE value="HM Week12" />
-    <option name="LAST_COMMIT_MESSAGE" value="HM Week12" />
+    <MESSAGE value="HM Week13" />
+    <option name="LAST_COMMIT_MESSAGE" value="HM Week13" />
   </component>
 </project>

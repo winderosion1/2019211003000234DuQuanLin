@@ -15,6 +15,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
+@MultipartConfig
 @WebServlet(name = "AddProductServlet", value = "/admin/addProduct")
 public class AddProductServlet extends HttpServlet {
     Connection con = null;
@@ -39,13 +40,13 @@ public class AddProductServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String productName = request.getParameter("productName");
         double price = request.getParameter("price") != null ? Double.parseDouble(request.getParameter("price")):0.0;
-        int categoryId = request.getParameter("categoryId")!=null?Integer.parseInt("categoryId"):8;
+        int categoryId = request.getParameter("categoryId")!=null?Integer.parseInt(request.getParameter("categoryId")):8;
         String productDescription = request.getParameter("productDescription");
-        
-        
+
         InputStream inputStream = null;
         Part fileParts = request.getPart("picture");
         if(fileParts!=null){
+            System.out.println("aaaaa");
             inputStream = fileParts.getInputStream();
         }
 
@@ -55,7 +56,6 @@ public class AddProductServlet extends HttpServlet {
         product.setCategoryId(categoryId);
         product.setProductDescription(productDescription);
         product.setPicture(inputStream);
-        //product.setPicture(inputStream);
 
         ProductDao productDao = new ProductDao();
         try {

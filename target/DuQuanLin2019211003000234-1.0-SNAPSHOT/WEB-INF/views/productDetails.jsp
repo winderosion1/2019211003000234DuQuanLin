@@ -10,12 +10,13 @@
 						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
 							
 							<!-- loop_start -->
+							<c:forEach var="c" items="categoryList">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="<%=basePath %>shop?categoryId=id">Category Name</a></h4>
+									<h4 class="panel-title"><a href="<%=basePath %>shop?categoryId=${c.categoryId}">${c.categoryName}</a></h4>
 								</div>
 							</div>
-							
+							</c:forEach>
 							<!-- loop_end -->
 						</div><!--/category-products-->
 					
@@ -39,7 +40,7 @@
 					<div class="product-details"><!--product-details-->
 						<div class="col-sm-5">
 							<div class="view-product">
-								<img src="<%=basePath %>getImg?id=id" alt="" />
+								<img src="<%=basePath %>getImg?id=${p.productId}" alt="" />
 							</div>
 							<div id="similar-product" class="carousel slide" data-ride="carousel">
 								
@@ -78,11 +79,11 @@
 						<div class="col-sm-7">
 							<div class="product-information"><!--/product-information-->
 								<img src="images/product-details/new.jpg" class="newarrival" alt="" />
-								<h2>product Name</h2>
-								<p>Web ID: product id</p>
+								<h2>${p.productName}</h2>
+								<p>Web ID: ${p.productId}</p>
 								<img src="images/product-details/rating.png" alt="" /><!-- picture -->
 								<p></p>
-									<p>RMB  price</p>
+									<p>RMB  ${p.price}</p>
 									<form action="<%=basePath %>cart">
 									<!-- <label>Quantity:</label>
 									<input type="text"  name="quantity"/> -->
@@ -111,7 +112,7 @@
 						<div class="tab-pane fade active in" id="details" >
 								<div class="col-sm-12">
 									
-									<p>product Description</p>
+									<p>${p.productDescription}</p>
 								
 								</div>
 							</div>

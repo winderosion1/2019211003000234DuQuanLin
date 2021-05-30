@@ -2,6 +2,8 @@ package com.example.DuQuanLin2019211003000234.dao;
 
 import com.example.DuQuanLin2019211003000234.model.Product;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
@@ -18,15 +20,8 @@ public class ProductDao implements  IProductDao{
         pt.setString(2, product.getProductDescription());
         if(product.getPicture()!=null) {
             System.out.println("dasdsdsadsadsadas");
-            int count = 0;
-            InputStream in = product.getPicture();
-            while (count == 0) {
-                count = in.available();
-            }
-            byte[] b = new byte[count];
-            in.read(b);
             //for sql server
-            pt.setBinaryStream(3, product.getPicture(),b.length);
+            pt.setBinaryStream(3,product.getPicture());
             //for mysql
             //   pt.setBlob(3, product.getPicture());
         }

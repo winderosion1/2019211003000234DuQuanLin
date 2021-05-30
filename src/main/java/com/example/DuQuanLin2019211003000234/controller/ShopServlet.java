@@ -45,7 +45,7 @@ public class ShopServlet extends HttpServlet {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        request.getRequestDispatcher("/WEB-INF/views/admin/shop.jsp").forward(request,response);
+        request.getRequestDispatcher("/WEB-INF/views/shop.jsp").forward(request,response);
     }
 
     @Override
