@@ -7,6 +7,8 @@ import com.example.DuQuanLin2019211003000234.model.Product;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
@@ -39,7 +41,8 @@ public class AddProductServlet extends HttpServlet {
         double price = request.getParameter("price") != null ? Double.parseDouble(request.getParameter("price")):0.0;
         int categoryId = request.getParameter("categoryId")!=null?Integer.parseInt("categoryId"):8;
         String productDescription = request.getParameter("productDescription");
-
+        
+        
         InputStream inputStream = null;
         Part fileParts = request.getPart("picture");
         if(fileParts!=null){
@@ -52,6 +55,7 @@ public class AddProductServlet extends HttpServlet {
         product.setCategoryId(categoryId);
         product.setProductDescription(productDescription);
         product.setPicture(inputStream);
+        //product.setPicture(inputStream);
 
         ProductDao productDao = new ProductDao();
         try {

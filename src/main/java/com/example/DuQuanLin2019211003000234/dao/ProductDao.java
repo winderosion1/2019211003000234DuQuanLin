@@ -2,6 +2,7 @@ package com.example.DuQuanLin2019211003000234.dao;
 
 import com.example.DuQuanLin2019211003000234.model.Product;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.ArrayList;
@@ -9,15 +10,23 @@ import java.util.List;
 
 public class ProductDao implements  IProductDao{
     @Override
-    public int save(Product product, Connection con) throws SQLException {
+    public int save(Product product, Connection con) throws SQLException, IOException {
         int n = 0;
         String sql = "insert into product(ProductName,ProductDescription,picture,price,CategoryId) values(?,?,?,?,?)";
         PreparedStatement pt = con.prepareStatement(sql);
         pt.setString(1, product.getProductName());
         pt.setString(2, product.getProductDescription());
         if(product.getPicture()!=null) {
+            System.out.println("dasdsdsadsadsadas");
+            int count = 0;
+            InputStream in = product.getPicture();
+            while (count == 0) {
+                count = in.available();
+            }
+            byte[] b = new byte[count];
+            in.read(b);
             //for sql server
-            pt.setBinaryStream(3, product.getPicture());
+            pt.setBinaryStream(3, product.getPicture(),b.length);
             //for mysql
             //   pt.setBlob(3, product.getPicture());
         }

@@ -2,6 +2,7 @@ package com.example.DuQuanLin2019211003000234.dao;
 
 import com.example.DuQuanLin2019211003000234.model.Product;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -14,7 +15,7 @@ public interface IProductDao {
 	 * Insert a product
 	 * @return int
 	 */
-	public int save(Product product, Connection con) throws SQLException;
+	public int save(Product product, Connection con) throws SQLException, IOException;
 	/**
 	 * Delete a product by productId
 	 * @return int
