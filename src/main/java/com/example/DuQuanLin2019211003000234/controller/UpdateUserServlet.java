@@ -49,6 +49,6 @@ public class UpdateUserServlet extends HttpServlet {
         } catch (SQLException | ParseException throwables) {
             throwables.printStackTrace();
         }
-        request.getRequestDispatcher("updateUser.jsp").forward(request,response);
+        request.getRequestDispatcher("accountDetails").forward(request,response);
     }
 }

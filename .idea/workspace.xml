@@ -10,21 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ced6dd7-1755-4fdc-926b-66749249cd1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/validate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/lab1/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/WEB-INF/classes/com/example/DuQuanLin2019211003000234/lab1/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/lab1/assignment1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/lab1/assignment2/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/lab1/assignment2/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/lab1/assignment2/validate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/lab1/assignment2/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/lab1/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/DuQuanLin2019211003000234/lab1/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/AccountDetailsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/OrderDetailsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/IOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/model/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/accountDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/orderList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateUserView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/orderDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/lab2/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/lab2/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/lab2/validate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DuQuanLin2019211003000234-1.0-SNAPSHOT/lab2/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/2019211003000234DuQuanLin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/2019211003000234DuQuanLin_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019211003000234DuQuanLin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019211003000234DuQuanLin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/UpdateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DuQuanLin2019211003000234/controller/UpdateUserServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +95,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -95,9 +103,9 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp" />
-      <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\java\com\example\DuQuanLin2019211003000234" />
-      <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp\images\cart" />
+      <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp\WEB-INF\views\admin" />
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\java\com\example\DuQuanLin2019211003000234\model" />
       <recent name="D:\program\java\2019211003000234DuQuanLin\src\main\java\com\example\DuQuanLin2019211003000234\dao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -113,6 +121,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.54">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="assignment1.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/2019211003000234DuQuanLin_war_exploded/lab1/assignment1.jsp">
       <method v="2" />
     </configuration>
@@ -254,6 +275,8 @@
       <workItem from="1622814649121" duration="55000" />
       <workItem from="1623048764083" duration="4787000" />
       <workItem from="1623066314639" duration="338000" />
+      <workItem from="1623066709186" duration="80000" />
+      <workItem from="1623580961456" duration="6287000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615095736621</created>
@@ -353,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623051767004</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Lab2">
+      <created>1623066738850</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1623066738850</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +426,7 @@
     <MESSAGE value="HM Week12" />
     <MESSAGE value="HM Week13" />
     <MESSAGE value="Lab1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab1" />
+    <MESSAGE value="Lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab2" />
   </component>
 </project>
