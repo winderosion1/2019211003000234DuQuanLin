@@ -77,7 +77,7 @@
 						<tbody>
 					
 					<!-- loop_start -->
-					
+					<c:forEach var="o" items="${orderList}">
 						<tr>
 						<td>OID:order Id</td>
 						<td>order Date</td>
@@ -104,7 +104,7 @@
 						<td><button class="btn btn-default update" id="${o.orderId }">Details</button></td>
 							</tr>
 							<tr>
-							
+								</c:forEach>
 						<!-- loop_end -->
 						
 					</tbody>
