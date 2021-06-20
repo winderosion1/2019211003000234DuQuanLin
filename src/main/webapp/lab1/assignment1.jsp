@@ -38,16 +38,16 @@
 
 
 <% String[] words ={"one","two","three","four","five","six","seven","eight","nine","ten"};
-   pageContext.setAttribute("words", words);
+   request.setAttribute("words", words);
 %>
     <%-- todo 4 : use c:forEach to print all elements of array --%>
-<c:forEach var="word" items="${pageContext.words}">
+<c:forEach var="word" items="${request.words}">
     <td>
         <c:out value="${words}" />
     </td>
 </c:forEach>
     <%-- todo 5 : use c:forEach to print "one","three","five","seven","nine"  of array --%>
-<c:forEach var="word" items="${pageContext.words}" step="2">
+<c:forEach var="word" items="${request.words}" step="2">
     <td>
         <c:out value="${words}" />
     </td>

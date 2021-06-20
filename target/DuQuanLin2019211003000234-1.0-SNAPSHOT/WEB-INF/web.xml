@@ -20,6 +20,24 @@
         <param-value>root</param-value>
     </context-param>
     
+    <filter>
+        <filter-name>YourNameFilter</filter-name>
+        <filter-class>com.example.DuQuanLin2019211003000234.lab2.YourNameFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>YourNameFilter</filter-name>
+        <url-pattern>/lab2/welcome.jsp</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>HitCountServlet</servlet-name>
+        <servlet-class>com.example.DuQuanLin2019211003000234.lab3.HitCountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HitCountServlet</servlet-name>
+        <url-pattern>/lab3/HitCountServlet</url-pattern>
+    </servlet-mapping>
+
     <welcome-file-list>
         <welcome-file>home</welcome-file>
     </welcome-file-list>
